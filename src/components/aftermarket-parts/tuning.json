@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_aftermarket_parts_tunings",
+  "info": {
+    "displayName": "Tuning",
+    "icon": "car-crash"
+  },
+  "options": {},
+  "attributes": {
+    "Company": {
+      "type": "string"
+    },
+    "Parts": {
+      "type": "string"
+    }
+  }
+}
