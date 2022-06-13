@@ -1,3 +1,15 @@
+# restarting the app
+If the app doesn't start you may need to build using 
+### `yarn build`
+only then you'll be albe to use
+### `yarn start`
+
+# with start you can't make any kind of change
+if you need to add/edit content, you'll need to launch the app with 
+### `npm run develop`
+with this the app starts in dev mode and you'll be albe to make changes and add content
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.

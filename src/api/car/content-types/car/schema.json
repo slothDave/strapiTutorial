@@ -37,6 +37,21 @@
       "type": "component",
       "repeatable": false,
       "component": "aftermarket-parts.tuning"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "cars"
+    },
+    "HP": {
+      "type": "integer"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "car"
     }
   }
 }
