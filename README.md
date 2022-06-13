@@ -6,7 +6,7 @@ only then you'll be albe to use
 
 # with start you can't make any kind of change
 if you need to add/edit content, you'll need to launch the app with 
-### `npm run develop`
+### `npm run develop` or `yarn develop`
 with this the app starts in dev mode and you'll be albe to make changes and add content
 
 
